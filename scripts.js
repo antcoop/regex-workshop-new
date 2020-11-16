@@ -5,7 +5,15 @@ var inputs = document.querySelectorAll("input");
 form.addEventListener('submit', e => {
   console.log(e, "this is event")
   e.preventDefault();
+
+  console.log(e.target, "TARGET");
+
   console.log('SUBMIT');
+
+  for (var i = 0; i < 3; i++) {
+    console.log(i);
+  }
+
   for (var i = 0; i < inputs.length; i++) {
     console.log(inputs[i].value);
     console.log("test")
@@ -17,10 +25,12 @@ document.querySelector("body").setAttribute("name", "good-times");
 for (var i = 0; i < inputs.length; i++) {
   inputs[i].style.backgroundColor = "lightblue";
   inputs[i].style.fontSize = "3rem";
+  inputs[i].style.textAlign = "right";
 }
 
 form.style.padding = "20px";
 form.style.margin = "20px";
+form.style.float = "right";
 form.style.border = "4px solid darkgray";
 form.style.backgroundColor = "pink";
 form.style.color = "yellow";

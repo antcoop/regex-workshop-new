@@ -19,4 +19,12 @@ form.style.margin = "20px";
 form.style.border = "4px solid darkgray";
 form.style.backgroundColor = "purple";
 form.style.color = "yellow";
-form.style.fontFamily = "Arial, Helvetica, sans-serif";
+form.style.fontFamily = "Atlas Typewriter, Arial, Helvetica, sans-serif";
+
+const array = [1,3,4,5,6,89,44,32];
+
+for (var num of array) {
+  console.log(num);
+}
+
+console.log("Good Times");

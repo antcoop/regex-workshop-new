@@ -16,6 +16,7 @@ form.addEventListener('submit', e => {
 
   for (var i = 0; i < inputs.length; i++) {
     console.log(inputs[i].value);
+    console.log("test")
   }
 });
 
@@ -31,13 +32,11 @@ form.style.padding = "20px";
 form.style.margin = "20px";
 form.style.float = "right";
 form.style.border = "4px solid darkgray";
-form.style.backgroundColor = "purple";
+form.style.backgroundColor = "pink";
 form.style.color = "yellow";
 form.style.fontFamily = "Atlas Typewriter, Arial, Helvetica, sans-serif";
 
-
-
-const array = [1,3,4,5,6,89,44,32];
+const array = [1,3,4,5,6,89,44,32, 185];
 
 for (var num of array) {
   console.log(num);

@@ -5,6 +5,9 @@ var inputs = document.querySelectorAll("input");
 form.addEventListener('submit', e => {
   e.preventDefault();
   console.log('SUBMIT');
+  for (var i = 0; i < inputs.length; i++) {
+    console.log(inputs[i].value);
+  }
 });
 
 document.querySelector("body").setAttribute("name", "good-times");

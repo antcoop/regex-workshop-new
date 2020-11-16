@@ -3,44 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="base.css" />
   <title>Form Validation</title>
-  <style>
-    *, html {
-      font-size: 3rem;
-      padding: 10px;
-      margin: 0;
-      box-sizing: border-box;
-    } 
-    input[type] {
-      padding: 20px;
-      width: 100%;
-      border: 4px solid gray;
-      margin-bottom: 20px;
-    }
-    input[type]:valid {
-      border: 4px solid darkgreen;
-      background-color: lightgreen;
-    }
-    input[type]:invalid {
-      border: 4px solid darkred;
-      background-color: pink;
-    }
-
-    button {
-      border: 4px solid gray;
-      padding: 20px 30px;
-      background-color: lightgray;
-    }
-    @media screen and (max-width: 600px) {
-      *, html {
-        font-size: 1rem;
-      } 
-      input[type],
-      button {
-        padding: 16px;
-      }
-    }
-  </style>
 </head>
 <body>
   <form id="form">
@@ -48,12 +12,6 @@
     <input placeholder="phone number" type="tel" required pattern="" />
     <button>Submit</button>
   </form>
-  <script>
-    const form = document.getElementById('form');
-    form.addEventListener('submit', e => {
-      e.preventDefault();
-      console.log('SUBMIT');
-    });
-  </script>
+  <script src="scripts.js"></script>
 </body>
 </html>

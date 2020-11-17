@@ -16,7 +16,7 @@ input[type]:valid {
 }
 input[type]:invalid {
   border: 4px solid darkred;
-  background-color: pink;
+  background-color: #ff0080;
 }
 
 button {

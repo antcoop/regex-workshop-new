@@ -20,7 +20,10 @@ var firstDuplicate = function(array) {
   return null;
 }
 
+console.log("OTHER");
 console.log(firstDuplicate([ 2, 5, 6, 3, 5 ]));
+console.log("FIRST NAME");
 console.log(firstDuplicate([ 1, 3, 4, 1, 3, 4 ]));
-console.log(firstDuplicate([ 2, 4, 5 ]));
 console.log("made it here")
+console.log("LAST NAME");
+console.log(firstDuplicate([ 2, 4, 5 ]));

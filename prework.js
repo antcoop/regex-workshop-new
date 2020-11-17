@@ -23,3 +23,4 @@ var firstDuplicate = function(array) {
 console.log(firstDuplicate([ 2, 5, 6, 3, 5 ]));
 console.log(firstDuplicate([ 1, 3, 4, 1, 3, 4 ]));
 console.log(firstDuplicate([ 2, 4, 5 ]));
+console.log("made it here")

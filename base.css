@@ -12,11 +12,11 @@ input[type] {
 }
 input[type]:valid {
   border: 4px solid darkgreen;
-  background-color: lightgreen;
+  background-color: lightgreen !important;
 }
 input[type]:invalid {
   border: 4px solid darkred;
-  background-color: #ff0080;
+  background-color: #ff0080 !important;
 }
 
 button {
